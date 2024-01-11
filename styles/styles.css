@@ -1,0 +1,39 @@
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    color: rgb(44, 41, 44);
+    background-color: rgb(250,240,230);
+}
+
+#main-header {
+    background-color: rgb(107,142,35);
+    color: white;
+    padding: 2rem 5%;
+    text-align: center;
+}
+
+.btn {
+    font: inherit;
+    padding: 0.5rem 1.5rem;
+    background-color: rgb(107,142,35);
+    border: 1px solid rgb(107,142,35);
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.btn-alt {
+    background-color: transparent;
+    border-color: transparent;
+    color: rgb(107,142,35);
+}
+
+.btn:hover {
+    background-color: rgb(78, 105, 24);
+    border-color: rgb(78, 105, 24);
+}
+
+.btn-alt:hover {
+    background-color: rgb(213, 235, 170);
+    border-color: transparent;
+}
